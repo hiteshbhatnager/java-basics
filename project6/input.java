@@ -10,5 +10,5 @@ public class input {
 
         String name = sc.next();
         System.out.println("hello" + name);
-    }1
+    }
 }
