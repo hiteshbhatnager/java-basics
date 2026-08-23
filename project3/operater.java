@@ -21,10 +21,10 @@ public class operater {
         System.out.println(divide);
         System.out.println(module);
 
-        System.out.println(true && true);
-        System.out.println(true && false);
-        System.out.println(true || true);
-        System.out.println(true || false);
+        // System.out.println(true && true);
+        // System.out.println(true && false);
+        // System.out.println(true || true);
+        // System.out.println(true || false);
 
         int x = 10;
         x++;
