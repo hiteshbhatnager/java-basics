@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class input {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("enter you name");
 
-        System.out.println("enter you name");
-
-        String name = sc.next();
-        System.out.println("hello" + name);
+            String name = sc.next();
+            System.out.println("hello" + name);
+        }
     }
 }
