@@ -14,7 +14,10 @@ public class string {
         System.out.println(charachter.toLowerCase());
         System.out.println(charachter.toUpperCase());
 
-        String wifu = new String("ichigo wife is orihime");
+        String wifu = new String("   ichigo   wife is orihime    ");
+        System.out.println(wifu.trim());
+        System.out.println(wifu);
+
         System.out.println(wifu.contains("orihime"));
 
         System.out.println(wifu.startsWith("ichigo"));
