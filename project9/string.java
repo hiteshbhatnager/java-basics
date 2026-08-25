@@ -19,5 +19,7 @@ public class string {
 
         System.out.println(wifu.startsWith("ichigo"));
         System.out.println(wifu.endsWith("orihime"));
+
+        System.out.println(wifu.replace("ichigo", "my"));
     }
 }
